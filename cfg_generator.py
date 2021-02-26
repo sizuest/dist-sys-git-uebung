@@ -6,9 +6,11 @@ person = Person("Rüttimann", "Donat")
 
 
 # Optional / zum auskommentieren
-person.set_dialekt("Dialekt")
-person.set_haustier("Haustier")
-person.set_lieblingsfarbe("Farbe")
+person.set_dialekt("Äntlibuech")
+person.set_haustier("kein")
+person.set_lieblingsfarbe("türkis")
+person.set_haar_farbe("Rot")
+person.set_studiengang("WI")
 
 
 # ===============================================
