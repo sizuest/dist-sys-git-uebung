@@ -2,12 +2,14 @@ from person import Person
 
 # ANPASSEN
 # ===============================================
-person = Person("Mezenen", "Kenny")
+
+person = Person("Rogenmoser", "Yves")
 
 # Optional / zum auskommentieren
-# person.set_dialekt("Zuerich")
-# person.set_haustier("Haustier")
-# person.set_lieblingsfarbe("Schwarz")
+person.set_dialekt("Zuger")
+person.set_haustier("Katze")
+person.set_lieblingsfarbe("Blue")
+
 
 # ===============================================
 person.toJSON("data/"+person.vorname.lower()+"."+person.name.lower())
