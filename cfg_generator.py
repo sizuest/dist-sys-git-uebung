@@ -2,7 +2,7 @@ from person import Person
 
 # ANPASSEN
 # ===============================================
-person = Person("Test", "Meier")
+person = Person("Name", "Vorname")
 
 # Optional / zum auskommentieren
 person.set_dialekt("Äntlibuech")
