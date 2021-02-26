@@ -2,15 +2,14 @@ from person import Person
 
 # ANPASSEN
 # ===============================================
-person = Person("Rüttimann", "Donat")
+person = Person("Züst", "Simon")
 
 
 # Optional / zum auskommentieren
-person.set_dialekt("Äntlibuech")
-person.set_haustier("kein")
-person.set_lieblingsfarbe("türkis")
-person.set_haar_farbe("Rot")
-person.set_studiengang("WI")
+person.set_dialekt("ZH-Oberland")
+person.set_haustier("Katzen")
+person.set_haar_farbe("Schwarz")
+person.set_studiengang("MSc ME")
 
 
 # ===============================================
