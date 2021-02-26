@@ -6,7 +6,7 @@ class Person:
     haustier = ""
     dialekt = ""
     bart = False
-    studiengag= ""
+    studiengang= ""
 
     def __init__(self, name, vorname):
         self.name = name
@@ -24,7 +24,7 @@ class Person:
     def set_bart(self, bart):
         self.bart = bart
     def set_studiengang(self, studiengang):
-        self.studiengag = studiengang
+        self.studiengang = studiengang
 
 
 
@@ -43,8 +43,8 @@ class Person:
         if self.bart:
             out += "\n\tHat Bart"
 
-        if self.studiengag != "":
-            out += "\n\tStudiert: "+self.studiengag
+        if self.studiengang != "":
+            out += "\n\tStudiert: "+self.studiengang
 
         return out
 
