@@ -8,6 +8,7 @@ class Person:
     wohnort = ""
     brille = False
     handymarke = ""
+    alter=""
 
 
     def __init__(self, name, vorname):
