@@ -3,5 +3,6 @@
     "vorname": "Simon",
     "dialekt": "ZH-Oberland",
     "haustier": "Katzen",
-    "lieblingsfarbe": "gelb"
+    "lieblingsfarbe": "gelb",
+    "brille": true
 }

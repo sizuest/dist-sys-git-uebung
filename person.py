@@ -5,7 +5,12 @@ class Person:
     lieblingsfarbe = ""
     haustier = ""
     dialekt = ""
+<<<<<<< HEAD
     wohnort = ""
+=======
+    brille = False
+    handymarke = ""
+>>>>>>> f233f8beb8c8ef719a84f8f5dad2cdc5a1fcc1b5
 
 
     def __init__(self, name, vorname):
@@ -21,8 +26,17 @@ class Person:
     def set_dialekt(self, dialekt):
         self.dialekt = dialekt
 
+<<<<<<< HEAD
     def set_wohnort(self, wohnort):
         self.wohnort = wohnort
+=======
+    def set_Brille(self, brille):
+        self.brille = brille
+
+    def set_handymarke(self, marke):
+        self.handymarke = marke
+
+>>>>>>> f233f8beb8c8ef719a84f8f5dad2cdc5a1fcc1b5
 
     def to_string(self):
         out = self.name +", "+self.vorname
@@ -36,8 +50,13 @@ class Person:
         if self.dialekt != "":
             out += "\n\tDialekt: "+self.dialekt
 
+<<<<<<< HEAD
         if self.wohnort != "":
             out += "\n\tWohnort: "+self.wohnort
+=======
+        if self.brille:
+            out += "\n\tBrillenträger:in"
+>>>>>>> f233f8beb8c8ef719a84f8f5dad2cdc5a1fcc1b5
 
         return out
 
