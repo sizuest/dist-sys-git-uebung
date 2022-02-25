@@ -20,6 +20,7 @@ class Person:
     def set_dialekt(self, dialekt):
         self.dialekt = dialekt
 
+
     def to_string(self):
         out = self.name +", "+self.vorname
 
@@ -31,6 +32,7 @@ class Person:
 
         if self.dialekt != "":
             out += "\n\tDialekt: "+self.dialekt
+
 
         return out
 
