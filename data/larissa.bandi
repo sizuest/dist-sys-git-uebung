@@ -3,5 +3,7 @@
     "vorname": "Larissa",
     "dialekt": "alles",
     "haustier": "space cat",
-    "lieblingsfarbe": "rot"
+    "lieblingsfarbe": "rot",
+    "brille": true,
+    "handymarke": "Apple"
 }

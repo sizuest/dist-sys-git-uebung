@@ -9,6 +9,7 @@ class Person:
     handymarke = ""
 
 
+
     def __init__(self, name, vorname):
         self.name = name
         self.vorname = vorname
