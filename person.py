@@ -5,6 +5,7 @@ class Person:
     lieblingsfarbe = ""
     haustier = ""
     dialekt = ""
+    wohnort = ""
 
 
     def __init__(self, name, vorname):
@@ -20,6 +21,9 @@ class Person:
     def set_dialekt(self, dialekt):
         self.dialekt = dialekt
 
+    def set_wohnort(self, wohnort):
+        self.wohnort = wohnort
+
     def to_string(self):
         out = self.name +", "+self.vorname
 
@@ -31,6 +35,9 @@ class Person:
 
         if self.dialekt != "":
             out += "\n\tDialekt: "+self.dialekt
+
+        if self.wohnort != "":
+            out += "\n\tWohnort: "+self.wohnort
 
         return out
 
