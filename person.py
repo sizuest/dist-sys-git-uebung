@@ -6,11 +6,7 @@ class Person:
     haustier = ""
     dialekt = ""
     brille = False
-<<<<<<< HEAD
-    alter = ""
-=======
     handymarke = ""
->>>>>>> d3143a05a6cabc855a8ac277779746e86bc21e7d
 
 
     def __init__(self, name, vorname):
@@ -29,14 +25,9 @@ class Person:
     def set_Brille(self, brille):
         self.brille = brille
 
-<<<<<<< HEAD
-    def set_alter(self, alter):
-        self.alter = alter
-=======
     def set_handymarke(self, marke):
         self.handymarke = marke
 
->>>>>>> d3143a05a6cabc855a8ac277779746e86bc21e7d
 
     def to_string(self):
         out = self.name +", "+self.vorname
@@ -52,9 +43,6 @@ class Person:
 
         if self.brille:
             out += "\n\tBrillenträger:in"
-
-        if self.alter != "":
-            out += "\n\tAltert: "+self.alter
 
         return out
 
