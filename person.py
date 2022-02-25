@@ -8,7 +8,8 @@ class Person:
 <<<<<<< HEAD
     wohnort = ""
 =======
-    brille = False
+    brille = True
+    autofahrer = True
     handymarke = ""
 >>>>>>> f233f8beb8c8ef719a84f8f5dad2cdc5a1fcc1b5
 
@@ -62,6 +63,9 @@ class Person:
 
         if self.alter:
             out += "\n\tAlter: "+self.alter
+
+        if self.autofahrer:
+            out += "\n\tAutofahrer:in"
 
         return out
 
