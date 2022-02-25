@@ -6,6 +6,7 @@ class Person:
     haustier = ""
     dialekt = ""
     brille = False
+    handymarke = ""
 
 
     def __init__(self, name, vorname):
@@ -23,6 +24,10 @@ class Person:
 
     def set_Brille(self, brille):
         self.brille = brille
+
+    def set_handymarke(self, marke):
+        self.handymarke = marke
+
 
     def to_string(self):
         out = self.name +", "+self.vorname
