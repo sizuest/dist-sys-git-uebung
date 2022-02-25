@@ -3,5 +3,6 @@
     "vorname": "Luis",
     "dialekt": "LU",
     "haustier": "Komodowaran",
-    "lieblingsfarbe": "Schwarz"
+    "lieblingsfarbe": "Schwarz",
+    "brille": false
 }
