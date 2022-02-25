@@ -3,5 +3,7 @@
     "vorname": "Stefan",
     "dialekt": "jekavisch",
     "haustier": "Waschbaer",
-    "lieblingsfarbe": "Grau"
+    "lieblingsfarbe": "Grau",
+    "brille": false,
+    "alter": "26"
 }
