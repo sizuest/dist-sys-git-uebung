@@ -33,6 +33,10 @@ class Person:
     def set_Brille(self, brille):
         self.brille = brille
 
+<<<<<<< HEAD
+    def set_alter(self, alter):
+        self.alter = alter
+=======
     def set_handymarke(self, marke):
         self.handymarke = marke
 
@@ -57,6 +61,9 @@ class Person:
         if self.brille:
             out += "\n\tBrillenträger:in"
 >>>>>>> f233f8beb8c8ef719a84f8f5dad2cdc5a1fcc1b5
+
+        if self.alter:
+            out += "\n\tAlter: "+self.alter
 
         return out
 
