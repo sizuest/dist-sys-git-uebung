@@ -1,6 +1,8 @@
 {
-    "Lucas": "Meier",
-    "vorname": "Lucas",
-    "dialekt": "Lucas_Meier",
-    "haustier": "Hund"
+    "name": "Zuest",
+    "vorname": "Simon",
+    "dialekt": "ZH-Oberland",
+    "haustier": "Katzen",
+    "lieblingsfarbe": "gelb",
+    "brille": true
 }
