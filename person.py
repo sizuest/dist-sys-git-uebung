@@ -5,7 +5,6 @@ class Person:
     lieblingsfarbe = ""
     haustier = ""
     dialekt = ""
-    brille = False
 
 
     def __init__(self, name, vorname):
