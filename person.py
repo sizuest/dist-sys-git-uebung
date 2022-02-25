@@ -5,6 +5,7 @@ class Person:
     lieblingsfarbe = ""
     haustier = ""
     dialekt = ""
+    brille = False
 
 
     def __init__(self, name, vorname):
@@ -20,11 +21,8 @@ class Person:
     def set_dialekt(self, dialekt):
         self.dialekt = dialekt
 
-<<<<<<< HEAD
-=======
     def set_Brille(self, brille):
         self.brille = brille
->>>>>>> 28d8f742dd2c5f0c804f8f5bc0eec40bb119d521
 
     def to_string(self):
         out = self.name +", "+self.vorname
@@ -38,11 +36,8 @@ class Person:
         if self.dialekt != "":
             out += "\n\tDialekt: "+self.dialekt
 
-<<<<<<< HEAD
-=======
         if self.brille:
             out += "\n\tBrillenträger:in"
->>>>>>> 28d8f742dd2c5f0c804f8f5bc0eec40bb119d521
 
         return out
 
