@@ -2,5 +2,7 @@
     "name": "Zuest",
     "vorname": "Simon",
     "dialekt": "ZH-Oberland",
-    "haustier": "Katzen"
+    "haustier": "Katzen",
+    "lieblingsfarbe": "gelb",
+    "brille": true
 }

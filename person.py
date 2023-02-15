@@ -5,6 +5,10 @@ class Person:
     lieblingsfarbe = ""
     haustier = ""
     dialekt = ""
+    wohnort = ""
+    brille = False
+    handymarke = ""
+    alter=""
 
 
     def __init__(self, name, vorname):
@@ -20,6 +24,18 @@ class Person:
     def set_dialekt(self, dialekt):
         self.dialekt = dialekt
 
+    def set_wohnort(self, wohnort):
+        self.wohnort = wohnort
+
+    def set_Brille(self, brille):
+        self.brille = brille
+
+    def set_alter(self, alter):
+        self.alter = alter
+
+    def set_handymarke(self, marke):
+        self.handymarke = marke
+
     def to_string(self):
         out = self.name +", "+self.vorname
 
@@ -31,6 +47,15 @@ class Person:
 
         if self.dialekt != "":
             out += "\n\tDialekt: "+self.dialekt
+
+        if self.wohnort != "":
+            out += "\n\tWohnort: "+self.wohnort
+
+        if self.brille:
+            out += "\n\tBrillenträger:in"
+
+        if self.alter:
+            out += "\n\tAlter: "+self.alter
 
         return out
 

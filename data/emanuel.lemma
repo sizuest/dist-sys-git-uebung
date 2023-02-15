@@ -1,0 +1,10 @@
+{
+    "name": "Lemma",
+    "vorname": "Emanuel",
+    "dialekt": "DE",
+    "haustier": "Keine",
+    "lieblingsfarbe": "Schwarz",
+    "handymarke": "Apple IPhone",
+    "brille": false,
+    "wohnort": "Mars"
+}
