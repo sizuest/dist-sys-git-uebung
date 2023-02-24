@@ -1,0 +1,11 @@
+{
+    "name": "Thommen",
+    "vorname": "Marus",
+    "wohnort": "Kyoto",
+    "dialekt": "Oberbasellaendlerduetsch",
+    "haustier": "Schnabeltier",
+    "lieblingsfarbe": "Blau",
+    "brille": false,
+    "alter": 24,
+    "handymarke": "Apple"
+}
