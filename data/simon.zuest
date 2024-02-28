@@ -1,7 +1,6 @@
 {
-    "name": "Z\u00fcst",
+    "name": "Zuest",
     "vorname": "Simon",
-    "lieblingsfarbe": "gelb",
-    "haustier": "Katzen",
-    "dialekt": "Z\u00fcri-Oberland"
+    "mag_bier": true,
+    "lieblingsfarbe": "gelb"
 }

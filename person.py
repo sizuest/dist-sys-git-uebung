@@ -3,8 +3,7 @@ import json
 
 class Person:
     lieblingsfarbe = ""
-    haustier = ""
-    dialekt = ""
+    mag_bier = None
 
     def __init__(self, name, vorname):
         self.name = name
@@ -13,23 +12,20 @@ class Person:
     def set_lieblingsfarbe(self, lieblingsfarbe):
         self.lieblingsfarbe = lieblingsfarbe
 
-    def set_haustier(self, haustier):
-        self.haustier = haustier
-
-    def set_dialekt(self, dialekt):
-        self.dialekt = dialekt
+    def set_mag_bier(self, mag_bier):
+        self.mag_bier = mag_bier
 
     def to_string(self):
-        out = self.name +", "+self.vorname
+        out = self.name + ", " + self.vorname
 
         if self.lieblingsfarbe != "":
-            out += "\n\tLieblingsfarbe: "+self.lieblingsfarbe
+            out += "\n\tLieblingsfarbe: " + self.lieblingsfarbe
 
-        if self.haustier != "":
-            out += "\n\tHaustier: "+self.haustier
-
-        if self.dialekt != "":
-            out += "\n\tDialekt: "+self.dialekt
+        if self.mag_bier is not None:
+            if self.mag_bier:
+                out += "\n\tMag Bier"
+            else:
+                out += "\n\tMag kein Bier"
 
         return out
 
