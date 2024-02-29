@@ -2,5 +2,6 @@
     "name": "Bumann",
     "vorname": "Patrick",
     "mag_bier": true,
-    "lieblingsfarbe": "Gelb"
+    "lieblingsfarbe": "Gelb",
+    "mag_wein": true
 }
