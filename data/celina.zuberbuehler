@@ -2,5 +2,6 @@
     "name": "Zuberbuehler",
     "vorname": "Celina",
     "mag_bier": true,
-    "lieblingsfarbe": "gelb"
+    "lieblingsfarbe": "gelb",
+    "mag_wein": false
 }
