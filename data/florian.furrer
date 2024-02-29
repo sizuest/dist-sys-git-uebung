@@ -2,5 +2,6 @@
     "name": "Furrer",
     "vorname": "Florian",
     "mag_bier": true,
-    "lieblingsfarbe": "gruen"
+    "lieblingsfarbe": "gruen",
+    "mag_wein": true
 }
