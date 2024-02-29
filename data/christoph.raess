@@ -2,5 +2,6 @@
     "name": "Raess",
     "vorname": "Christoph",
     "mag_bier": false,
-    "lieblingsfarbe": "Orange"
+    "lieblingsfarbe": "Orange",
+    "mag_wein": false
 }
