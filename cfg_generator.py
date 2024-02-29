@@ -2,10 +2,10 @@ cfg_generator.pyfrom person import Person
 
 # ANPASSEN
 # ===============================================
-person = Person("Name", "Vorname")
+person = Person("Schüttler", "Dattle")
 
 # Optional / zum auskommentieren
-# person.set_mag_bier(True)
+person.set_mag_bier(True)
 # person.set_lieblingsfarbe("Farbe")
 
 # ===============================================
