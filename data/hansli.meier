@@ -2,5 +2,6 @@
     "name": "Meier",
     "vorname": "Hansli",
     "mag_bier": false,
-    "lieblingsfarbe": "blau"
+    "lieblingsfarbe": "blau",
+    "mag_wein": false
 }
