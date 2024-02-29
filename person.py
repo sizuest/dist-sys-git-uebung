@@ -26,9 +26,9 @@ class Person:
             out += "\n\tLieblingsfarbe: " + self.lieblingsfarbe
 
         if self.mag_bier and self.mag_wein:
-            out += "\nMag Alkohol"
+            out += "\n\tMag Alkohol"
         elif not self.mag_bier and not self.mag_wein:
-            out += "\n Mag keinen Alkohol"
+            out += "\n\tMag keinen Alkohol"
         else:
             if self.mag_bier is not None:
                 if self.mag_bier:
