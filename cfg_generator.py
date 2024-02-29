@@ -1,4 +1,4 @@
-from person import Person
+cfg_generator.pyfrom person import Person
 
 # ANPASSEN
 # ===============================================

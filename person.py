@@ -4,6 +4,7 @@ import json
 class Person:
     lieblingsfarbe = ""
     mag_bier = None
+    mag_wein = None
 
     def __init__(self, name, vorname):
         self.name = name
@@ -15,17 +16,30 @@ class Person:
     def set_mag_bier(self, mag_bier):
         self.mag_bier = mag_bier
 
+    def set_mag_wein(self, mag_wein):
+        self.mag_wein = mag_wein
+
     def to_string(self):
         out = self.name + ", " + self.vorname
 
         if self.lieblingsfarbe != "":
             out += "\n\tLieblingsfarbe: " + self.lieblingsfarbe
 
-        if self.mag_bier is not None:
-            if self.mag_bier:
-                out += "\n\tMag Bier"
-            else:
-                out += "\n\tMag kein Bier"
+        if self.mag_bier and self.mag_wein:
+            out += "\n\tMag Alkohol"
+        elif not self.mag_bier and not self.mag_wein:
+            out += "\n\tMag keinen Alkohol"
+        else:
+            if self.mag_bier is not None:
+                if self.mag_bier:
+                    out += "\n\tMag Bier"
+                else:
+                    out += "\n\tMag kein Bier"
+            if self.mag_wein is not None:
+                if self.mag_wein:
+                    out += "\n\tMag Wein"
+                else:
+                    out += "\n\tMag kein Wein"
 
         return out
 

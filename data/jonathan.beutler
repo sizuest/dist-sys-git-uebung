@@ -2,5 +2,6 @@
     "name": "Beutler",
     "vorname": "Jonathan",
     "mag_bier": true,
-    "lieblingsfarbe": "Biergelb und Blauvoll"
+    "lieblingsfarbe": "Biergelb und Blauvoll",
+    "mag_wein": true
 }
